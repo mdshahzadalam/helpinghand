@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="~{base::layout(~{::section})}">
+
+<head>
+	<meta charset="ISO-8859-1">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Room Rent FAQ</title>
+
+</head>
+
+<body>
+	<section>
+
+
+
+
+
+
+
+
+		<!--accordion-button-->
+
+
+		<div class="container " style="margin-top: 4rem;">
+			<h1 class="text-center mb-4">Frequently Asked Questions</h1>
+			<div class="accordion" id="faqAccordion">
+
+				<div class="accordion-item card-box mt-3  rounded-pill transparent">
+					<h2 class="accordion-header" id="headingOne">
+						<button
+							class="accordion-button collapsed d-flex justify-content-between align-items-center bg-white rounded-pill"
+							type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+							aria-controls="collapseOne">
+							<b class="fs-4">What is included in the rent?
+							</b>
+						</button>
+					</h2>
+					<div id="collapseOne" class="accordion-collapse collapse rounded-pill" aria-labelledby="headingOne"
+						data-bs-parent="#faqAccordion">
+						<div class="accordion-body bg-warning rounded-pill fs-5">
+							The rent includes utilities such as water, electricity, and internet. Maintenance is also
+							covered.
+						</div>
+					</div>
+				</div>
+
+				<div class="accordion-item card-box mt-3 rounded-pill">
+					<h2 class="accordion-header" id="headingTwo">
+						<button
+							class="accordion-button collapsed d-flex justify-content-between align-items-center bg-white rounded-pill"
+							type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+							aria-controls="collapseTwo">
+							<b class="fs-4">How do I pay rent each month?
+							</b>
+						</button>
+					</h2>
+					<div id="collapseTwo" class="accordion-collapse collapse rounded-pill" aria-labelledby="headingTwo"
+						data-bs-parent="#faqAccordion">
+						<div class="accordion-body bg-warning rounded-pill fs-5">
+							You can pay rent via bank transfer, online payment gateway, or through our mobile app.
+						</div>
+					</div>
+				</div>
+
+				<div class="accordion-item card-box mt-3 rounded-pill">
+					<h2 class="accordion-header" id="headingThree">
+						<button
+							class="accordion-button collapsed d-flex justify-content-between align-items-center bg-white rounded-pill"
+							type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+							aria-expanded="false" aria-controls="collapseThree">
+							<b class="fs-4">Is a security deposit required?
+							</b>
+						</button>
+					</h2>
+					<div id="collapseThree" class="accordion-collapse collapse rounded-pill"
+						aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+						<div class="accordion-body bg-warning rounded-pill fs-5">
+							Yes, a one-month security deposit is required before moving in. It will be refunded when you
+							move out, provided there is no damage.
+						</div>
+					</div>
+				</div>
+
+				<div class="accordion-item card-box mt-3 rounded-pill">
+					<h2 class="accordion-header" id="headingFour">
+						<button
+							class="accordion-button collapsed d-flex justify-content-between align-items-center bg-white rounded-pill"
+							type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+							aria-controls="collapseFour">
+							<b class="fs-4">Are pets allowed?
+							</b>
+						</button>
+					</h2>
+					<div id="collapseFour" class="accordion-collapse collapse rounded-pill"
+						aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+						<div class="accordion-body bg-warning rounded-pill fs-5">
+							Pets are allowed in certain rooms. Please check with the room owner for specific pet
+							policies.
+						</div>
+					</div>
+				</div>
+
+				<div class="accordion-item card-box mt-3 rounded-pill">
+					<h2 class="accordion-header" id="headingFive">
+						<button
+							class="accordion-button collapsed d-flex justify-content-between align-items-center bg-white rounded-pill"
+							type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+							aria-controls="collapseFive">
+							<b class="fs-4">What is the minimum lease duration?
+							</b>
+						</button>
+					</h2>
+					<div id="collapseFive" class="accordion-collapse collapse rounded-pill"
+						aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+						<div class="accordion-body bg-warning rounded-pill fs-5">
+							The minimum lease duration is usually 6 months, but it can vary depending on the room. Be
+							sure to confirm with the room provider.
+						</div>
+					</div>
+				</div>
+
+				<div class="accordion-item card-box mt-3 rounded-pill">
+					<h2 class="accordion-header" id="headingsix">
+						<button
+							class="accordion-button collapsed d-flex justify-content-between align-items-center bg-white rounded-pill"
+							type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
+							aria-controls="collapseSix">
+							<b class="fs-4">Is there a security deposit?
+							</b>
+						</button>
+					</h2>
+					<div id="collapseSix" class="accordion-collapse collapse rounded-pill" aria-labelledby="headingSix"
+						data-bs-parent="#faqAccordion">
+						<div class="accordion-body bg-warning rounded-pill fs-5">
+							Yes, a security deposit is typically required and is equal to one month's rent.
+						</div>
+					</div>
+				</div>
+
+
+				<div class="accordion-item card-box mt-3 rounded-pill">
+					<h2 class="accordion-header" id="headingSeven">
+						<button
+							class="accordion-button collapsed d-flex justify-content-between align-items-center bg-white rounded-pill"
+							type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+							aria-expanded="false" aria-controls="collapseSeven">
+							<b class="fs-4">What is included in the rent?
+							</b>
+						</button>
+					</h2>
+					<div id="collapseSeven" class="accordion-collapse collapse rounded-pill"
+						aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
+						<div class="accordion-body bg-warning rounded-pill fs-5">
+							The rent includes utilities such as water, electricity, and internet. Maintenance is also
+							covered.
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- accordion-button -->
+
+		<div class="card-group mt-5">
+
+			<div class="card m-1 card-box">
+				<img src="img/onlinebook.jpg" class="card-img-top" alt="...">
+
+			</div>
+			<div class="card m-1 card-box">
+				<img src="img/img19.jpg" class="card-img-top" alt="...">
+
+			</div>
+			<div class="card m-1 card-box">
+				<img src="img/properties.jpg" class="card-img-top" alt="...">
+
+
+			</div>
+		</div>
+
+
+
+	</section>
+</body>
+
+</html>
